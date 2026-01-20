@@ -9,14 +9,14 @@ redirect_from:
 
 ### Hello, I'm Haodong Fu(付昊东) 👋
 
-I am a **Technical Product Manage** and **VR Developer** currently working at **Beijing Unidraw VR Technology Research Institute Co.Ltd.**. 
+I am a **Technical Product Manage** and **VR/AR/MR Software Developer** currently working at **Beijing Unidraw VR Technology Research Institute Co.Ltd.**. 
 
 With a unique interdisciplinary background spanning **Software Engine (Master's)** and **Educational Technology (bachelor's)**, I bridge the gap between complex rendering algorithms and user-centric product design. 
 
 My current research and engineering interests lie in:
 * **High-Performance Graphics:** Real-time rendering optimization using C++ and ComputeShader.
 * **Spatial Computing:** Developing immersive experiences for Apple VisionOS and Unity platforms.
-* **AI in Dental Education:** Building intelligent platforms that democratize access to quality education.
+* **AI in Dental Education:** Developing **AI-powered virtual patient systems** for consultation training, utilizing **Speech Recognition** and **Sentence-Similarity** algorithms to simulate realistic doctor-patient interactions.
 
 ### 🛠 Tech Stack
 * **Languages:** C++, C#, Python, Swift
