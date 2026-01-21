@@ -20,7 +20,19 @@ Introduction
 1. 利用Unity PolySpatial已有的XRHands手势识别方案，因为手势识别的延迟很低，故可以让GameObject跟随一个手指节点  
 2. 因为手指节点无法做到自转(Roll)，但Muse支持悬停UI，获取其在UI上的位置和姿态信息，故可以使用Muse在UIKit上悬停的表现  
 
-FHDUseLogitechMuseinUNITYSWIFT.png
+<p align="center">
+  <img src="https://HaldonFu.github.io/images/FHDUseLogitechMuseinUNITYSWIFT.png?raw=true" alt="Photo" style="width: 450px;"/> 
+</p>  
+  
+如图中所示，红色的UI是SwiftUI，用于Muse的悬停，使用的方法是UIHoverGestureRecognizer，在其前方1-3cm处会检测到笔的悬停，并且获取到其在UI上的位姿，其中:  
+x:触控笔在红色面板上的水平坐标  
+y:触控笔在红色面板上的垂直坐标  
+z:深度坐标(这里被编码为0，但如果swiftui设置为体积ui的话，也可以获取到Z)  
+alt:笔杆与屏幕平面之间的夹角（仰角）  
+azi: 笔杆在屏幕平面上的投影朝向（笔尖指向哪里）  
+roll: 笔围绕自身中轴线旋转的角度（就像拧螺丝一样的动作）  
+我在图中的log只展示了部分参数，但其实代码中全部发送给了unity。
+  
 
 Talk is cheap, show me the code!
 ======
@@ -283,4 +295,4 @@ struct MuseTrackerView: View {
 
 写在结尾
 ------
-关于Logitech Muse来控制虚拟工具Roll的方法就写完了，当然这里如果使用attachment的话，还可以用unity来控制苹果原生SwiftUI的位姿，这就留到后面再开一篇帖子来写吧。附上一个效果图。
+关于Logitech Muse来控制虚拟工具Roll的方法就写完了，当然这里如果使用attachment的话，还可以用unity来控制苹果原生SwiftUI的位姿，这就留到后面再开一篇帖子来写吧...
