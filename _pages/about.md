@@ -10,9 +10,9 @@ redirect_from:
 
 ### Hello, I'm Haodong Fu(付昊东) 👋
 
-I am a **Technical Product Manage** and **VR/AR/MR Software Developer** currently working at **Beijing Unidraw VR Technology Research Institute Co.Ltd.**. 
+I am a **Technical Product Manager** and **VR/AR/MR Software Developer** currently working at **Beijing Unidraw VR Technology Research Institute Co., Ltd**. 
 
-With a unique interdisciplinary background spanning **Software Engine (Master's)** and **Educational Technology (bachelor's)**, I bridge the gap between complex rendering algorithms and user-centric product design. 
+With a unique interdisciplinary background spanning **Software Engineering (Master's)** and **Educational Technology (bachelor's)**, I bridge the gap between complex rendering algorithms and user-centric product design. 
 
 My current research and engineering interests lie in:
 * **High-Performance Graphics:** Real-time rendering optimization using C++ and ComputeShader.
