@@ -20,7 +20,7 @@ Introduction
 1. 利用Unity PolySpatial已有的XRHands手势识别方案，因为手势识别的延迟很低，故可以让GameObject跟随一个手指节点  
 2. 因为手指节点无法做到自转(Roll)，但Muse支持悬停UI，获取其在UI上的位置和姿态信息，故可以使用Muse在UIKit上悬停的表现  
 
-You can have many headings
+Talking is cheap, show me the code!
 ======
 
 Aren't headings cool?
