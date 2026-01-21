@@ -258,6 +258,27 @@ struct MuseTrackerView: View {
 
 
 ```
+经过以上Swift这一系列操作之后呢，就可以生成一个ui，只需要在Swift调用窗口的位置添加上这个ui即可，无论是attachment还是windowgroup都支持。  
+下一步就是我们该如何在unity使用这个自转数据。  
+其实很简单，只需要在更新位姿时加入自转姿态的影响即可  
+```CSharp
+        //检测 Muse 数据更新 (判定是“预览”还是“锁定”)
+        if (useMuseRoll)
+        {
+            // 检查MuseDebugSync 是否有新数据
+            float currentRawRoll = MuseDebugSync.LatestRollRadians;
+            
+            //只要数据源在更新，就更新 _savedRollAngle
+            _savedRollAngle = currentRawRoll * Mathf.Rad2Deg;
+            //处理坐标系反转
+            if (invertRoll) _savedRollAngle = -_savedRollAngle;
+        }
 
-Aren't headings cool?
+        //叠加保存好的 Roll 角度
+        Quaternion rollRot = Quaternion.Euler(0, 0, _savedRollAngle);
+        Quaternion finalRot = handBaseRot * rollRot;
+```
+
+写在结尾
 ------
+关于Logitech Muse来控制虚拟工具Roll的方法就写完了，当然这里如果使用attachment的话，还可以用unity来控制苹果原生SwiftUI的位姿，这就留到后面再开一篇帖子来写吧。附上一个效果图。
