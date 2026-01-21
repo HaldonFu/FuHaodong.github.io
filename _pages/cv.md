@@ -56,4 +56,26 @@ Publications
     <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Vancouver, Canada, 2023.
   </li>
 </ul>
+
+Patents
+======
+<ul>
+  <li>
+    耿胜辉, 赵永涛, 郝爱民, 韩向龙, 郑庆华,<strong> 付昊东</strong>, 赵晓含, 丛宇, 王诗达, 万家武.<br>
+    "基于空间计算技术的口腔诊疗台训练系统及方法."<br>
+    <i>CN Patent ZL202411573787.0 (Granted)</i>, 2024.
+  </li>
+  
+  <li>
+    	<strong>付昊东 </strong>,郑庆华,韩向龙,叶玲,万家武,张敏,郝爱民,杨箫正,赵永涛.<br>
+    "	一种基于虚拟现实技术的牙科显微镜操作模拟训练系统"<br>
+    <i>CN Patent 	CN202510880822.1 (Granted)</i>, 2025.
+  </li>
+  
+   <li>
+    AIMIN HAO, YONGTAO ZHAO, XIANGLONG HAN, QINGHUA ZHENG, <strong>HAODONG FU</strong>, XIAOHAN ZHAO, YU CONG, SHENGHUI GENG, SHIDA WANG, JIAWU WAN.<br>
+    "Dental Simulation Workbench Training System and Method Based on Spatial Computing Technology."<br>
+    <i>U.S. Patent Application No. 19/340,823 (Filed)</i>, 2025.
+  </li>
+</ul>
   
