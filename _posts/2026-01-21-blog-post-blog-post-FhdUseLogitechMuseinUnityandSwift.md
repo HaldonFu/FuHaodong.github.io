@@ -275,7 +275,7 @@ struct MuseTrackerView: View {
 经过以上Swift这一系列操作之后呢，就可以生成一个ui，只需要在Swift调用窗口的位置添加上这个ui即可，无论是attachment还是windowgroup都支持。  
 下一步就是我们该如何在unity使用这个自转数据。  
 其实很简单，只需要在更新位姿时加入自转姿态的影响即可  
-```CSharp
+```csharp
         //检测 Muse 数据更新 (判定是“预览”还是“锁定”)
         if (useMuseRoll)
         {
