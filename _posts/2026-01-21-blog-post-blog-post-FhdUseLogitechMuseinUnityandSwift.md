@@ -38,7 +38,7 @@ Talk is cheap, show me the code!
 ======
   
 那么首先我们应该先实现物体跟随手的方法，这里代码贴的稍微全一些。
-```CSharp
+```csharp
 using UnityEngine;
 using UnityEngine.XR.Hands;
 using UnityEngine.XR.Management;
@@ -125,7 +125,7 @@ public class HandProbeBinder_Smart : MonoBehaviour
 在此刻，我们就发现了，跟随手指的话无法完成自转（roll），所以此刻该利用swift的UIHover来实现自转。
 于是我们需要在swift端创建一个ui，用于悬停使用，并定义一个函数，用于发送数据给unity，unity接收数据后再叠加自转。
 
-```Swift
+```swift
 import Foundation
 import SwiftUI
 import UnityFramework
