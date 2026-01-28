@@ -118,7 +118,7 @@ public class HandProbeBinder_Smart : MonoBehaviour
 }
 ```
 实验发现，这里跟随时有抖动，所以我们必须加入平滑效果，这里采用lerp的方式
-```CSharp
+```csharp
   transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * posSmoothSpeed);
   transform.rotation = Quaternion.Slerp(transform.rotation, finalRot, Time.deltaTime * rotSmoothSpeed);
 ```
