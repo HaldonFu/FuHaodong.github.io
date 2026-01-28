@@ -43,7 +43,7 @@ Talk is cheap, show the code!
 ```
 他们使用dll的方式引入swift代码，并且注册了一个回调，用于接收swift发来的消息。
 例如，
-```CSharp
+```csharp
   void OnEnable()
         {
             m_Button.WasPressed += WasPressed;
