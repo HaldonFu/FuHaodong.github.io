@@ -1,7 +1,7 @@
 ---
 title: 'Use SwiftUI in UnityPolySpatial(VisionOS): 在Unity PolySpatial中使用SwiftUI'
 date: 2026-01-28
-permalink: /posts/2026/01/blog-post-FhdUseLogitechMuseinUnityandSwift/
+permalink: /posts/2026/01/blog-post-useSwiftUIinUnityVisionOS/
 tags:
   - Unity
   - Swift
