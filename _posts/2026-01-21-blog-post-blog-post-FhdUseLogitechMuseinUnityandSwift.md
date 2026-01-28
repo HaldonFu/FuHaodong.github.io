@@ -34,7 +34,7 @@ roll: 笔围绕自身中轴线旋转的角度（就像拧螺丝一样的动作�
 我在图中的log只展示了部分参数，但其实代码中全部发送给了unity。
   
 
-Talk is cheap, show me the code!
+Talk is cheap, show the code!
 ======
   
 那么首先我们应该先实现物体跟随手的方法，这里代码贴的稍微全一些。
