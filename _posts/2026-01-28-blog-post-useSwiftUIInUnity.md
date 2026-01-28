@@ -15,7 +15,11 @@ Introduction
 
 Talk is cheap, show the code!
 ======
-  
+先看效果
+<p align="center">
+  <img src="https://HaldonFu.github.io/images/useswiftuiinunity.png?raw=true" alt="Photo" style="width: 450px;"/> 
+</p>  
+
 那么首先我们应该先理解unity polyspatial的SwiftUI例子。
 ```csharp
 #if UNITY_VISIONOS && !UNITY_EDITOR
